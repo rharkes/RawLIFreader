@@ -7,3 +7,5 @@ Bioformats will be more user friendly than the RawLIFreader. This small script i
 ```
 LF = LIFfile(filename); %read the content of the .lif file
 dat=LF.getLIFBinaryBlockData('MemBlock_6122'); %contains raw data. Find the name of the memoryblock in LF.binaryBlockHeaders
+
+Recently "TSC SP8 FALCON File Format Description LAS X Version 3.5.0" was posted on github: https://github.com/AllenCellModeling/aicsimageio/discussions/484#discussioncomment-5578771 
